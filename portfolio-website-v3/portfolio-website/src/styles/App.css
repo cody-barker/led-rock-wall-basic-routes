@@ -123,7 +123,7 @@ button:hover {
 }
 
 .about-container p {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 25px;
 }
 
@@ -141,7 +141,7 @@ button:hover {
 
 .about-content {
   flex: 1;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 25px;
 }
 
