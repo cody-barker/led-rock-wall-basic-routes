@@ -35,7 +35,7 @@ Use a resistor of 330 ohms between the arduino and the LED data strip pin to red
 
 ### Creating Routes
 
-Define the new route:
+Define the new route in the Custom Routes section:
 - as an array
 - with a unique name
 - with the number of LEDs you wish to turn on
@@ -45,3 +45,12 @@ For example:
 
 - int medium[5] = {1, 4, 7, 9, 13}
 - this creates an array of integers, called medium, with 5 elements, defined as LEDS numbers 1, 4, 7, 9 and 13.
+
+### Changing Routes
+- Change the name of the route in the void loop()
+- Upload the modified sketch to the board
+
+#### Open Questions
+- How many LEDs for the grid?
+- Max number of holds on at a given time?
+- Would this be useful for the slanted wall?
