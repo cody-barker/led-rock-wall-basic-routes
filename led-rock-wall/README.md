@@ -30,12 +30,13 @@ Use a resistor of 330 ohms between the arduino and the LED data strip pin to red
 
 #### External 5v 6A Power Supply
 
-- > 900mA (assuming 6000mA)
+- more than 900mA (assuming 6000mA)
 - Use a capacitor of 100 microferrets across the 5v and ground
 
 ### Creating Routes
 
 Define the new route in the Custom Routes section:
+
 - as an array
 - with a unique name
 - with the number of LEDs you wish to turn on
@@ -47,10 +48,14 @@ For example:
 - this creates an array of integers, called medium, with 5 elements, defined as LEDS numbers 1, 4, 7, 9 and 13.
 
 ### Changing Routes
+
 - Change the name of the route in the void loop()
 - Upload the modified sketch to the board
 
 #### Open Questions
+
 - How many LEDs for the grid?
+- A-K 1-18
 - Max number of holds on at a given time?
+- 10
 - Would this be useful for the slanted wall?
