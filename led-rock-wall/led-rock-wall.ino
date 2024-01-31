@@ -1,12 +1,12 @@
 #include <FastLED.h>
 
 #define LED_PIN 7
-#define NUM_LEDS 20
+#define NUM_LEDS 198
 
 CRGB leds[NUM_LEDS];
 
 // Your Custom Routes //
-int easy[8] = {2, 5, 7, 9, 13, 15, 18, 20}
+int easy[8] = {2, 5, 7, 9, 13, 15, 18, 20};
 
 void setup() {
 
